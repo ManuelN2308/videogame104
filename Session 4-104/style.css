@@ -1,0 +1,57 @@
+.header-site{
+    background-image: url(img/mariobg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+    border-bottom: 30px solid green;
+    color:white;
+
+}
+
+body{
+    font-family: 'Turret Road', cursive;
+}
+
+h1{
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.header-site .wrap{
+    padding: 40px;
+    text-align: center;
+}
+.wrap-main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.square{
+    background: rgb(130, 130, 130,);
+    height: 300px;
+    flex-basis: calc(40% - 1rem);
+    margin:10px;
+    padding:10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.img-c{
+    width:200px;
+    height:200px;
+}
+.btn{
+    background: red;
+    color: white;
+    font-size:20px;
+}
+.console{
+    background: white;
+    border: 1px black solid;
+    height: 250px;
+    width:200px;
+    border-radius: 5px;
+    justify-content: center;
+    margin: auto;
+}
